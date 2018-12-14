@@ -1,0 +1,28 @@
+Package: happymeal
+Type: Package
+Title: Bring healthy meals to R
+Version: 0.1.0
+Depends: R (>= 2.10)
+Author: Yue Ma
+Author@R: c(person("Yue", "Ma", , "ym2704@columbia.edu", role = c("aut", "cre"), 
+      comment = c(ORCID = "0000-0003-4757-117X"))
+Maintainer: <ym2704@columbia.edu>
+Description: 
+    Allow users to search for recipes matching the specified query or detailed information of specified foods. 
+    The links of the package on Github site is https://sofiayuema.github.io/happymeal/ .
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    jsonlite,
+    tidyr,
+    dplyr
+RoxygenNote: 6.1.0.9000
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+
+
